@@ -1,0 +1,106 @@
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Switzer, 'Switzer Placeholder', sans-serif;
+  background-color: rgb(15, 14, 14);
+  color: white;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+/* Left Section */
+.footer .left {
+  display: flex;
+  gap: 3rem;
+}
+
+/* Left1 */
+.footer .left .left1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.footer .left .left1 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.footer .left .left1 a:hover {
+  color: #aaa;
+  transform: translateX(3px);
+}
+
+/* Left2 */
+.footer .left .left2 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+/* Right Section */
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer .right .email-no p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+}
+
+.footer .right .quote {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .footer .left {
+    flex-direction: row; /* left1 and left2 side-by-side */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .footer .left .left1,
+  .footer .left .left2 {
+    padding: 0;
+    align-items: center;
+  }
+
+  .footer .right {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer .right .quote {
+    white-space: normal; /* allow wrapping */
+    text-align: center;
+    max-width: 90%;
+  }
+}

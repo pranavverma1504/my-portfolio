@@ -1,0 +1,408 @@
+/* project 1 and 2 */
+
+.project1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(15, 14, 14);
+  display: flex;
+  flex-direction: column;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+}
+
+.project1 .title {
+  height: 10vh;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 70px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.project1 .title h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 4.5rem;
+}
+
+.p1-container {
+  display: flex;
+  height: calc(100% - 10vh);
+  width: 100%;
+  margin-top: 40px;
+}
+
+.p1-left {
+  width: 40%;
+  background-color: rgb(15, 14, 14);
+}
+
+.p1-left .left-img {
+  width: 70%;
+  height: 35%;
+  background-color: #fff;
+  margin-left: 70px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.p1-left .left-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.p1-left .left-img:hover img {
+  transform: scale(1.1); 
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.p1-left p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  
+  margin-top: 18px;
+  margin-left: 70px;
+}
+
+.p1-right {
+  width: 60%;
+  background-color: rgb(15, 14, 14);
+}
+
+.p1-right .right-img {
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.p1-right .right-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  object-position: 50% 20%;
+}
+
+.p1-right .right-img:hover img {
+  transform: scale(1.1); 
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.p1-right p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin-top: 18px;
+}
+
+/* project 2 and 3 */
+
+.project2 {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.p2-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.p2-left {
+  width: 70%;
+  background-color: rgb(15, 14, 14);
+  color: #000;
+}
+
+.p2-left .left-img {
+  width: 90%;
+  height: 80%;
+
+  margin-left: 70px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.p2-left .left-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  object-position: top;
+}
+
+.p2-left .left-img:hover img {
+  transform: scale(1.1); 
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.p2-left p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin-top: 18px;
+  margin-left: 70px;
+}
+
+.p2-right {
+  width: 30%;
+  background-color: rgb(15, 14, 14);
+  color: #000;
+  font-weight: 600;
+  padding-right: 60px;
+  
+}
+
+
+.p2-right .right-img {
+  width: 80%;
+  height: 40%;
+  margin: auto;
+  overflow: hidden; 
+  border-radius: 20px; 
+  
+}
+
+
+.p2-right .right-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.5s ease; 
+}
+
+
+.p2-right .right-img:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.p2-right p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 18px;
+  padding: 0 6px;
+}
+
+/* project 5-6 */
+.project3 {
+  width: 100%;
+  height: 100vh;
+  background-color: traparent;
+  display: flex;
+}
+
+.p3-left {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(15, 14, 14);
+}
+
+
+.p3-left .left-img {
+  width: 88%;
+  height: 40%;
+  background-color: #fff;
+  margin-left: 70px;
+  overflow: hidden; 
+  border-radius: 20px; 
+}
+
+
+.p3-left .left-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease; 
+}
+
+
+.p3-left .left-img:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.p3-left p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 18px;
+}
+
+
+.p3-right {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(15, 14, 14);
+  padding-right: 15px;
+}
+
+
+.p3-right .right-img {
+  width: 90%;
+  height: 80%;
+  margin-left: 40px;
+  background-color: #fff;
+  overflow: hidden; 
+  border-radius: 20px;
+}
+
+
+.p3-right .right-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+
+.p3-right .right-img:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.p3-right p {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Switzer, "Switzer Placeholder", sans-serif;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin-top: 18px;
+  margin-left: 70px;
+}
+
+
+/* ------------------------- */
+/* RESPONSIVE DESIGN STARTS */
+/* ------------------------- */
+
+/* For tablets and smaller devices */
+@media (max-width: 1024px) {
+  .project1, .project2, .project3 {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+
+  .project1 .title {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .project1 .title h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  /* Common styling for all project containers */
+  .p1-container,
+  .p2-container,
+  .project3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .p1-left,
+  .p1-right,
+  .p2-left,
+  .p2-right,
+  .p3-left,
+  .p3-right {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .p1-left .left-img,
+  .p1-right .right-img,
+  .p2-left .left-img,
+  .p2-right .right-img,
+  .p3-left .left-img,
+  .p3-right .right-img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+
+  .p1-left p,
+  .p1-right p,
+  .p2-left p,
+  .p2-right p,
+  .p3-left p,
+  .p3-right p {
+    font-size: 1.2rem;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  /* Remove hover zoom for mobile/tablet */
+  .p1-left .left-img img,
+  .p1-right .right-img img,
+  .p2-left .left-img img,
+  .p2-right .right-img img,
+  .p3-left .left-img img,
+  .p3-right .right-img img {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* For small mobile screens */
+@media (max-width: 600px) {
+  .project1 .title h1 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .p1-left p,
+  .p1-right p,
+  .p2-left p,
+  .p2-right p,
+  .p3-left p,
+  .p3-right p {
+    font-size: 1rem;
+  }
+
+  .p1-left .left-img,
+  .p1-right .right-img,
+  .p2-left .left-img,
+  .p2-right .right-img,
+  .p3-left .left-img,
+  .p3-right .right-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,55 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(15, 14, 14);
+  font-family: Switzer, 'Switzer Placeholder', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .part1 {
+  color: white;
+}
+
+.hero .part1 h1 {
+  font-size: 12vw; /* scales with screen width */
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+}
+
+.hero .part2 {
+  margin-top: 1rem;
+}
+
+.hero .part2 p {
+  color: white;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero .part1 h1 {
+    font-size: 10vw;
+  }
+
+  .hero .part2 p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .hero .part1 h1 {
+    font-size: 16vw;
+  }
+
+  .hero .part2 p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+}
