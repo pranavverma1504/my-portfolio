@@ -1,4 +1,4 @@
-import "./work.css";
+import "./Work.css";
 import gitkeep from "../../assets/gitkeep.png";
 import ecommerce from "../../assets/ecommerce.png";
 import imageEnhancer from "../../assets/imageEnhancer.png";
