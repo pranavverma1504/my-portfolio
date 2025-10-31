@@ -87,7 +87,7 @@ const Work = () => {
         <div className="p3-right">
           <div className="right-img">
             <a
-              href="https://github.com/pranavverma1504/ekSaath_landingpage"
+              href="https://eksaath.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
